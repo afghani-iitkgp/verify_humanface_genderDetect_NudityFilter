@@ -1,0 +1,16 @@
+service_name: exFactor
+log_level: DEBUG
+
+settings:
+  ip: 0.0.0.0
+  port: 3000
+
+path:
+  log_path: "./var/"
+
+
+aws_s3_bucket_connection:
+  aws_access_id: "AKIAI7C7O42ALUVSYVVQ"
+  aws_secret_access_key: "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"
+  bucket_name: "xfactor-app"
+  region: "ap-south-1"
